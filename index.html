@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>НТТЭК — ГАПОУ СО "Нижнетагильский торгово-экономический колледж"</title>
+<title>НТТЭК — Нижнетагильский торгово-экономический колледж</title>
 <link rel="icon" type="image/png" href="https://nttek.ru/assets/site/imgs/logos/16x16.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,7 @@
       <div class="abbr">НТ<span>ТЭК</span></div>
       <h1>Нижнетагильский торгово-экономический колледж</h1>
     </div>
-    <div class="hero-badge">🎓 Колледж в Свердловской области</div>
+    <div class="hero-badge">🎓 ГАПОУ СО</div>
     <p class="hero-sub">Государственное автономное профессиональное образовательное учреждение Свердловской области</p>
   </div>
 </div>
@@ -38,7 +38,7 @@
 <!-- ADDRESS STRIP -->
 <div class="address-strip">
   <span class="dot"></span>
-  Россия, Свердловская область, г. Нижний Тагил, пр. Ленина, д. 2А
+  г. Нижний Тагил, пр. Ленина, д. 2А
   <span class="dot"></span>
 </div>
 
@@ -95,7 +95,7 @@
         <div class="cr-label">Приёмная директора</div>
         <div class="cr-value mono">+7 (3435) 41-79-63</div>
       </div>
-      <div class="cr-arrow" style="font-size:13px; font-family:'JetBrains Mono',monospace; font-weight:600; color:var(--blue-m); opacity:0.7;">Копировать</div>
+      <div class="cr-arrow" style="font-size:13px; font-family:'JetBrains Mono',monospace; font-weight:600; color:var(--blue-m); opacity:0.7;">copy</div>
     </div>
     <a class="contact-row" href="tel:+73435417963">
       <div class="cr-icon green">📞</div>
@@ -114,7 +114,7 @@
         <div class="cr-label">Приёмная комиссия</div>
         <div class="cr-value mono">+7 (3435) 41-75-58</div>
       </div>
-      <div class="cr-arrow" style="font-size:13px; font-family:'JetBrains Mono',monospace; font-weight:600; color:var(--blue-m); opacity:0.7;">Копировать</div>
+      <div class="cr-arrow" style="font-size:13px; font-family:'JetBrains Mono',monospace; font-weight:600; color:var(--blue-m); opacity:0.7;">copy</div>
     </div>
     <a class="contact-row" href="tel:+73435417558">
       <div class="cr-icon green">📞</div>
@@ -133,7 +133,7 @@
         <div class="cr-label">Зам. директора по учебной работе</div>
         <div class="cr-value mono">+7 (3435) 41-81-32</div>
       </div>
-      <div class="cr-arrow" style="font-size:13px; font-family:'JetBrains Mono',monospace; font-weight:600; color:var(--blue-m); opacity:0.7;">Копировать</div>
+      <div class="cr-arrow" style="font-size:13px; font-family:'JetBrains Mono',monospace; font-weight:600; color:var(--blue-m); opacity:0.7;">copy</div>
     </div>
     <a class="contact-row" href="tel:+73435418132">
       <div class="cr-icon green">📞</div>
@@ -146,29 +146,119 @@
   </div>
 
   <!-- PARTNERS -->
-  <div class="section-label">Федеральный проект</div>
-  <div class="partners-card">
+  <div class="section-label">Федеральный проект «Профессионалитет»</div>
+
+  <!-- Cluster 1: Правоохранительная -->
+  <div class="cluster-card" id="cl1">
+    <button class="cluster-header" onclick="toggleCluster('cl1')" aria-expanded="false">
+      <div class="cluster-header-left">
+        <div class="cluster-icon" style="background:#E0E7FF;">⚖️</div>
+        <div>
+          <div class="cluster-name">Правоохранительная сфера и управление</div>
+          <div class="cluster-sub">Свердловская область</div>
+        </div>
+      </div>
+      <div class="cluster-chevron">›</div>
+    </button>
+    <div class="cluster-links" id="cl1-links">
+      <a class="form-link" href="https://forms.yandex.ru/u/69c6304c90fa7b81a05743e0" target="_blank" rel="noopener">
+        <div class="form-link-icon">📅</div>
+        <div class="form-link-text">Регистрация на Единый день открытых дверей</div>
+        <div class="form-link-arrow">›</div>
+      </a>
+      <a class="form-link" href="https://forms.yandex.ru/u/69ca0d9c49af470d0c23c7d6" target="_blank" rel="noopener">
+        <div class="form-link-icon">🎓</div>
+        <div class="form-link-text">Регистрация на Всероссийский классный час «Профессионалитет: ты в хорошей компании»</div>
+        <div class="form-link-arrow">›</div>
+      </a>
+      <a class="form-link" href="https://forms.yandex.ru/admin/69c62d6c90fa7b001857439f/edit" target="_blank" rel="noopener">
+        <div class="form-link-icon">🏭</div>
+        <div class="form-link-text">Регистрация на экскурсию на площадку работодателя</div>
+        <div class="form-link-arrow">›</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Cluster 2: Туризм -->
+  <div class="cluster-card" id="cl2">
+    <button class="cluster-header" onclick="toggleCluster('cl2')" aria-expanded="false">
+      <div class="cluster-header-left">
+        <div class="cluster-icon" style="background:#FEF3C7;">🌍</div>
+        <div>
+          <div class="cluster-name">Туризм и сфера услуг</div>
+          <div class="cluster-sub">Свердловская область</div>
+        </div>
+      </div>
+      <div class="cluster-chevron">›</div>
+    </button>
+    <div class="cluster-links" id="cl2-links">
+      <a class="form-link" href="https://forms.yandex.ru/u/69ca105d902902048aba5d65" target="_blank" rel="noopener">
+        <div class="form-link-icon">📅</div>
+        <div class="form-link-text">Регистрация на Единый день открытых дверей</div>
+        <div class="form-link-arrow">›</div>
+      </a>
+      <a class="form-link" href="https://forms.yandex.ru/u/69c60d9dd0468880b8747bd9" target="_blank" rel="noopener">
+        <div class="form-link-icon">🎓</div>
+        <div class="form-link-text">Регистрация на Всероссийский классный час «Профессионалитет: ты в хорошей компании»</div>
+        <div class="form-link-arrow">›</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Cluster 3: Радиоэлектроника -->
+  <div class="cluster-card" id="cl3">
+    <button class="cluster-header" onclick="toggleCluster('cl3')" aria-expanded="false">
+      <div class="cluster-header-left">
+        <div class="cluster-icon" style="background:#DBEAFE;">📡</div>
+        <div>
+          <div class="cluster-name">Радиоэлектроника</div>
+          <div class="cluster-sub">Свердловская область · IT-специальности НТТЭК</div>
+        </div>
+      </div>
+      <div class="cluster-chevron">›</div>
+    </button>
+    <div class="cluster-links" id="cl3-links">
+      <a class="form-link" href="https://forms.yandex.ru/u/69ca9a8e95add5eb2646742b" target="_blank" rel="noopener">
+        <div class="form-link-icon">🏭</div>
+        <div class="form-link-text">Регистрация на экскурсию на площадку работодателя</div>
+        <div class="form-link-arrow">›</div>
+      </a>
+      <a class="form-link" href="https://forms.yandex.ru/u/69ca0d9c49af470d0c23c7d6" target="_blank" rel="noopener">
+        <div class="form-link-icon">🎓</div>
+        <div class="form-link-text">Регистрация на Всероссийский классный час «Профессионалитет: ты в хорошей компании»</div>
+        <div class="form-link-arrow">›</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Cluster 4: Вне кластеров -->
+  <div class="cluster-card" id="cl4">
+    <button class="cluster-header" onclick="toggleCluster('cl4')" aria-expanded="false">
+      <div class="cluster-header-left">
+        <div class="cluster-icon" style="background:#F0FFF4;">📋</div>
+        <div>
+          <div class="cluster-name">Другие специальности</div>
+          <div class="cluster-sub">Вне кластеров «Профессионалитета»</div>
+        </div>
+      </div>
+      <div class="cluster-chevron">›</div>
+    </button>
+    <div class="cluster-links" id="cl4-links">
+      <a class="form-link" href="https://forms.yandex.ru/u/69d5f78ce010db6e99bc9640" target="_blank" rel="noopener">
+        <div class="form-link-icon">📅</div>
+        <div class="form-link-text">Регистрация на Единый день открытых дверей</div>
+        <div class="form-link-arrow">›</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="partners-card" style="margin-top:4px;">
     <div class="partners-label">Участник</div>
-    <div class="partners-row">
-      <div class="partner-divider"></div>
-      <div class="partner-text">
-        <strong>Профессионалитет</strong><br>
-        Кластер «Правоохранительная сфера и управление»<br>
-        Свердловской области
-      </div>
-    </div>
-    <div class="partners-row">
-      <div class="partner-divider"></div>
-      <div class="partner-text">
-        Кластер «Туризм и сфера услуг»<br>
-        Свердловской области
-      </div>
-    </div>
-    <div class="partners-row">
-      <div class="partner-divider"></div>
-      <div class="partner-text">
-        Кластер «Радиоэлектроника»<br>
-        Свердловской области
+    <div class="partners-row" style="margin-bottom:0;">
+      <div class="partner-text" style="font-size:13px; color:rgba(255,255,255,0.75); line-height:1.6;">
+        <strong style="color:white;">Федеральный проект «Профессионалитет»</strong><br>
+        Министерство просвещения Российской Федерации<br>
+        Свердловская область · НТТЭК
       </div>
     </div>
     <a href="https://nttek.ru" target="_blank" rel="noopener" style="
@@ -176,8 +266,7 @@
       background: rgba(37,99,235,0.3); border: 1px solid rgba(37,99,235,0.45);
       color: #93C5FD; padding: 10px 20px; border-radius: 10px;
       font-size: 13px; font-weight: 700; text-decoration: none;
-      transition: background 0.2s;
-      width: 100%;
+      transition: background 0.2s; width: 100%;
     " onmouseover="this.style.background='rgba(37,99,235,0.45)'" onmouseout="this.style.background='rgba(37,99,235,0.3)'">
       🌐 Подробнее на nttek.ru
     </a>
@@ -195,6 +284,14 @@
 <div id="toast">✓ Номер скопирован</div>
 
 <script>
+function toggleCluster(id) {
+  const card = document.getElementById(id);
+  const btn = card.querySelector('.cluster-header');
+  const isOpen = card.classList.contains('open');
+  card.classList.toggle('open', !isOpen);
+  btn.setAttribute('aria-expanded', String(!isOpen));
+}
+
 function copyPhone(num, el) {
   navigator.clipboard.writeText(num).then(() => {
     const toast = document.getElementById('toast');
